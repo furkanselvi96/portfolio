@@ -85,7 +85,7 @@ public class FrontendController {
 
     @GetMapping({"/resume", "/resume/"})
     public String resume() {
-        return "redirect:/files/Jason_Yau_Resume.pdf";
+        return "redirect:/files/FurkanSelviCV.pdf";
     }
 
     private void updateStats(Model model) {
