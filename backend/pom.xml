@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.6</version>
+		<version>3.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jasonpyau</groupId>
-	<artifactId>jasonyau.com</artifactId>
+	<groupId>com.furkanselvi</groupId>
+	<artifactId>furkanselvi.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jasonyau.com</name>
-	<description>Backend for jasonpyau.com</description>
+	<name>furkanselvi.com</name>
+	<description>Backend for furkanselvi.com</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -30,10 +30,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<version>1.5.7</version>
-    	</dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -45,11 +45,11 @@
             <version>1.3</version>
             <scope>test</scope>
         </dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-mail</artifactId>
-			<version>3.0.6</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-mail</artifactId>-->
+<!--			<version>3.0.6</version>-->
+<!--		</dependency>-->
         <dependency>
             <groupId>com.bucket4j</groupId>
             <artifactId>bucket4j-core</artifactId>

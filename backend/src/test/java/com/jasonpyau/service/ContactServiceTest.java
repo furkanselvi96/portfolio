@@ -1,5 +1,6 @@
 package com.jasonpyau.service;
 
+import com.portfolio.service.ContactService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -12,9 +13,9 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.jasonpyau.entity.Message;
-import com.jasonpyau.repository.ContactRepository;
-import com.jasonpyau.util.DateFormat;
+import com.portfolio.entity.Message;
+import com.portfolio.repository.ContactRepository;
+import com.portfolio.util.DateFormat;
 
 @ExtendWith(MockitoExtension.class)
 public class ContactServiceTest {

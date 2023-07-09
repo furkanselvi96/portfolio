@@ -4,6 +4,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.portfolio.repository.BlogRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,10 +16,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import com.jasonpyau.Application;
-import com.jasonpyau.entity.Blog;
-import com.jasonpyau.entity.User;
-import com.jasonpyau.util.Hash;
+import com.portfolio.Application;
+import com.portfolio.entity.Blog;
+import com.portfolio.entity.User;
+import com.portfolio.util.Hash;
 
 import jakarta.transaction.Transactional;
 

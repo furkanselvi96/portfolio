@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Optional;
 
+import com.portfolio.service.StatsService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,9 +13,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.jasonpyau.entity.Stats;
-import com.jasonpyau.repository.StatsRepository;
-import com.jasonpyau.util.DateFormat;
+import com.portfolio.entity.Stats;
+import com.portfolio.repository.StatsRepository;
+import com.portfolio.util.DateFormat;
 
 @ExtendWith(MockitoExtension.class)
 public class StatsServiceTest {
